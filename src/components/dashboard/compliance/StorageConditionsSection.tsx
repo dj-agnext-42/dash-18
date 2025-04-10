@@ -1,7 +1,7 @@
 "use client";
 
 import { sampleStorageConditionsData } from "@/data/complianceSampleData";
-import { StorageConditionsData } from "@/types/compliance";
+import { StorageConditionsData } from "@/types/compliance.d";
 import {
   ResponsiveContainer,
   LineChart,

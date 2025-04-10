@@ -1,7 +1,7 @@
 "use client";
 
 import { sampleQualityInspectionData } from "@/data/complianceSampleData";
-import { QualityInspectionData } from "@/types/compliance";
+import { QualityInspectionData } from "@/types/compliance.d";
 import {
   ResponsiveContainer,
   PieChart,

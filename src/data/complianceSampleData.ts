@@ -1,4 +1,4 @@
-import { SoilQualityData, CropManagementData, QualityInspectionData, StorageConditionsData } from "@/types/compliance";
+import { SoilQualityData, CropManagementData, QualityInspectionData, StorageConditionsData } from "@/types/compliance.d";
 // Remove date-fns import if not used, or keep if needed later
 // import { subDays, format } from "date-fns";
 

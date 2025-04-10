@@ -2,7 +2,7 @@
 
 import { sampleSoilQualityData } from "@/data/complianceSampleData";
 // Attempt to import types again, hoping TS server catches up
-import { SoilQualityData, NutrientDetail } from "@/types/compliance";
+import { SoilQualityData, NutrientDetail } from "@/types/compliance.d";
 import {
   LineChart,
   Line,

@@ -1,7 +1,7 @@
 "use client";
 
 import { sampleCropManagementData } from "@/data/complianceSampleData";
-import { CropManagementData } from "@/types/compliance";
+import { CropManagementData } from "@/types/compliance.d";
 import {
   LineChart,
   Line,

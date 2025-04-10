@@ -58,6 +58,10 @@ export default function SamplesCRMDashboard() {
     "Missing Label": (acc.missingLabels / acc.totalInspected) * 100,
   }));
 
+  const handleMarketChange = (value: string) => {
+    setSelectedMarket(value as MarketSegment);
+  };
+
   return (
     <div className="flex flex-col h-full p-4 md:p-6 space-y-4 bg-gray-50">
       <div className="flex justify-between items-center">
@@ -67,10 +71,7 @@ export default function SamplesCRMDashboard() {
             Track produce quality and customer satisfaction metrics
           </p>
         </div>
-        <Select
-          value={selectedMarket}
-          onValueChange={(value: MarketSegment | "ALL") => setSelectedMarket(value)}
-        >
+        <Select value={selectedMarket} onValueChange={handleMarketChange}>
           <SelectTrigger className="w-[180px]">
             <SelectValue placeholder="Select market" />
           </SelectTrigger>

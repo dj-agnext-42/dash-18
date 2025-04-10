@@ -194,7 +194,7 @@ export default function FinancingDashboard() {
               </div>
             </div>
             <div className="text-sm text-muted-foreground">
-              Click "Run Simulation" to explore resource allocation scenarios and potential cost savings.
+              Click &quot;Run Simulation&quot; to explore resource allocation scenarios and potential cost savings.
             </div>
           </div>
         </CardContent>
